@@ -14,6 +14,6 @@ An input of [3,0,3] can be visualized as such:
 ‾‾‾‾‾‾‾‾‾‾  
 ```
 
-The area of water in the above picture (and the result of calling ```volume([3,0,3]))``` is 3.
+The area of water in the above picture (and the result of calling ```volume([3,0,3])```) is 3.
 
 Challenge: do this in O(n) with < 2 pass-throughs
