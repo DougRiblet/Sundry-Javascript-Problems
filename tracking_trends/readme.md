@@ -20,14 +20,18 @@ An uptick is defined as a contiguous range of indices [a,b], a < b , where each 
 
 If the input file reads:
 
-5 3
+```
+5 3  
 18 19 20 15 15
+```
 
 Your program should output:
 
-3
-0
+```
+3  
+0  
 -1
+```
 
 The first window has three upticks (18-19, 19-20, 18-19-20) and no downticks, so the answer is 3. The second window has one uptick (19-20) and one downtick (20-15), so the answer is 0. The third window has one downtick and no upticks, so the answer is -1.
 

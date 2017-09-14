@@ -8,6 +8,7 @@ add that as an argument
   $ node track_trends.js anotherInput.txt
   $ node track_trends.js /path/to/someInput.txt
 
+This repo contains a sample 'input.txt' file for demonstration.
 */
 
 const fs = require('fs');
