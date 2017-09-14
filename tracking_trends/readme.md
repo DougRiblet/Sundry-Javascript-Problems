@@ -37,7 +37,6 @@ The first window has three upticks (18-19, 19-20, 18-19-20) and no downticks, so
 
 ### Files Included
 
-My solution: track_trends.js
-Sample data: input.txt
+My solution: track_trends.js  
+Sample data: input.txt  
 Commentary: explanation.md
-

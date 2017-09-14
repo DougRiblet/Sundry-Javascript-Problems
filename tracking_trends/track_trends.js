@@ -103,9 +103,9 @@ function windowSubranges(n, k, dapo){
   // Print the first answer
   printCurrent(lo, hi, queue);
   
-  // Iterate through AHSP array, changing window and printing value each time
+  // Iterate through DAPO array, changing window and printing value each time
   for (let y=k; y<n; y++){
-    // Add next AHSP datum to end of window
+    // Add next DAPO datum to end of window
     let curdir = dapo[y] > dapo[y-1] ? 'up' : dapo[y] < dapo[y-1] ? 'down' : 'same';
     if (curdir === queue[hi].dir){
       queue[hi].count += 1;
@@ -113,7 +113,7 @@ function windowSubranges(n, k, dapo){
       queue[hi+1] = {dir: curdir, count: 1};
       hi += 1;
     }
-    // Chop one AHSP datum from start of window
+    // Chop one DAPO datum from start of window
     queue[lo].count -= 1;
     if (queue[lo].count === 0){
       delete queue[lo];
